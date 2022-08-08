@@ -1,5 +1,5 @@
 name: basit_workspace
-on: [push]
+on: [push,pull_request]
 jobs:
   basit:
     runs-on: ubuntu-latest
