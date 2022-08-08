@@ -1,0 +1,9 @@
+name: basit_workspace
+on: [push]
+jobs:
+  basit:
+    runs-on: ubuntu-lastest
+    steps:
+      - uses: actions/checkout@v3
+      - name: print the github repo
+        run: ls 
